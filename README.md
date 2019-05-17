@@ -7,7 +7,7 @@
 npm install @saber2pr/ioc-route
 
 # from github
-git clone _____
+git clone https://github.com/Saber2pr/-saber2pr-ioc-route.git
 ```
 
 # Feature
