@@ -1,0 +1,33 @@
+{
+  "name": "@saber2pr/ioc-route",
+  "version": "0.0.1",
+  "description": "> routes in ioc.",
+  "repository": {
+    "type": "git",
+    "url": "git+_____"
+  },
+  "author": "saber2pr",
+  "license": "ISC",
+  "files": [
+    "lib/core/*",
+    "lib/index.*"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node ./lib/test/test.js",
+    "start": "tsc --watch",
+    "dev": "rollup -c --watch"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.3"
+  },
+  "keywords": [
+    "ioc",
+    "typescript",
+    "router"
+  ],
+  "dependencies": {
+    "@saber2pr/ioc": "0.0.5",
+    "@saber2pr/reflect": "0.0.9"
+  }
+}
